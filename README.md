@@ -51,8 +51,4 @@ The ALU supports 16 operations including arithmetic, logical, relational, and sh
 - `$monitor` used for runtime logging
 - Waveform dump enabled using `$dumpfile` and `$dumpvars`
 
-### ▶ How to Run Simulation (ModelSim or any simulator)
-```tcl
-vsim alu_32b_tb
-add wave *
-run -all
+
